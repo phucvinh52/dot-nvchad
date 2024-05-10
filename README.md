@@ -7,7 +7,7 @@ apt upgrade
 pkg install lua-language-server
 ```
 
-# remove 
-
-rm -rf ~/.config/nvim
+# remove .local/share/nvim if reach error
+```
 rm -rf ~/.local/share/nvim
+```
