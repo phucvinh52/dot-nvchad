@@ -1,6 +1,6 @@
 # dot-nvchad
 
-git clone https://github.com/phucvinh52/dot-nvchad.git ~/.config/nvim && nvim
+rm -rf ~/.config/nvim && git clone https://github.com/phucvinh52/dot-nvchad.git ~/.config/nvim && nvim
 ## apt upgrade (required from termux) 
 ```
 apt upgrade
