@@ -11,3 +11,11 @@ pkg install lua-language-server
 ```
 rm -rf ~/.local/share/nvim
 ```
+
+# for rust 2 tab
+```
+mkdir -p ~/.config/rustfmt
+touch ~/.config/rustfmt/rustfmt.toml
+echo -e "\ntab_spaces = 2" >> ~/.config/rustfmt/rustfmt.toml
+cargo fmt
+``` 
